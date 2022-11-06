@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#start{
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(74, 49, 49)), url(../images/niko3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(126, 21, 21);
+    
+}
+
+.heading-logo {
+    margin: 0px 0px;
+    padding: 10px;
+    width: fit-content;
+    
+}
+
+.heading-navbar {
+    background: linear-gradient(rgb(41, 40, 40));
+    
+}
+ul li {
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+
+ul {
+    margin: 10px 0px;
+}
+
+ul li a:hover {
+    color: rgb(186, 90, 7);
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+
+.first-box {
+    width:275px;
+    height:275px;
+    background: linear-gradient(rgb(41, 40, 40));
+    
+}
+#title{
+    color: rgb(136, 7, 7);
+    padding: 10px;
+}
+#text {
+    padding: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(136, 7, 7);
+    
+}
+
+.nav {
+    color: orangered;
+    padding: 10px;
+    
+}
+
+.second-box {
+    flex-grow: 1;
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(74, 49, 49)), url(../images/niko4.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 4px 4px 7px rgb(128, 0, 28),
+                -4px -4px 7px rgb(128, 0, 28);
+    
+    
+    
+    
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+   
+    
+    
+}
+
+.section2-box {
+    width: var(--main-width);
+    height: var(--main-height);
+    border: .5px solid black;
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(74, 49, 49)), url(../images/niko5.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    box-shadow: 4px 4px 7px rgb(67, 3, 57),
+                -4px -4px 7px rgb(67, 3, 57);
+
+    
+    
+
+    
+}
+
+
+.navbar {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    
+    
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.section3-block {
+    /* width: 200px; */
+    height: 100px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgb(74, 49, 49)), url(../images/niko6.jpg);
+    background-position: center;
+    background-size: cover; 
+    box-shadow: 4px 4px 7px rgb(10, 1, 9),
+                -4px -4px 7px rgb(10, 1, 9);
+    
+}
+
+.text-color {
+    color: var(--main-color);
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.section3-text{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.footer{
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#footer-text2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+.text-color2{
+    color: rgb(129, 21, 129);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#web-title{
+    color: rgb(32, 71, 71);
+}
+
+
+#web-title1{
+    color: rgb(38, 87, 87);
+}
+
+.navbar:hover{
+    color: rgb(153, 84, 84);
+}
+
+.section3-box{
+    max-width: 1000px;
+    width: 250px;
+    height: 200px;
+    
+    
+}
+
+
+
+
+

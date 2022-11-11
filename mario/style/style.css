@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+   height: 350px;
+   background-color: rgb(69, 134, 224);
+}
+
+.main-section {
+    height: 300px;
+    background-color: green;
+   
+   
+}
+
+.footer {
+    border: 5px solid gray;
+    height: 320px;
+    background-color: rgb(67, 66, 66);
+    position: relative;
+  
+
+}
+
+.footer-line {
+    border: 5px dotted white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 150px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    animation-name: cloud-move;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    pointer-events: none;
+}
+
+.mario {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    animation-name: mario-move;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.luigi {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    animation-name: luigi-move;
+    animation-duration: 3s;
+    animation-delay: 4.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+.tree {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    pointer-events: none;
+    
+    
+}
+
+.tree2 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    pointer-events: none;
+}
+
+.tree3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    pointer-events: none;
+    
+}
+
+.tree4 {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    left: 5px;
+    pointer-events: none;
+}
+
+.chiefkeef {
+    width: 350px;
+    height: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;
+    pointer-events: none;
+    position: absolute;
+    
+}
+
+.tribune {
+    height: 240px;
+    position: absolute;
+    left: 46%;
+    pointer-events: none;
+    top: 300px;
+}
+
+.people {
+    width: 500px;
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    pointer-events: none;
+}
+
+
+
+
+@keyframes cloud-move {
+    0% {
+        transform: translate(1500px);
+    }
+}
+
+@keyframes luigi-move {
+    0% {
+        transform: translate(1800px);
+    }
+}
+
+@keyframes mario-move {
+    0% {
+        transform: translate(1800px);
+    }
+
+    
+}
+
+
+
